@@ -23,4 +23,4 @@ def function_name(input1: data_type1, input2: data_type2,..., opt_arg: data_type
 	# Your function code here
 
 	
-	return output
+	return opuput
