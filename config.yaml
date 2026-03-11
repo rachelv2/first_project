@@ -8,6 +8,3 @@ output_data:
   file_bf1: "../data/raw/WB_WDI_WIDEF.CSV"
   file_bf2: "../data/raw/WB_HCI_WIDEF.CSV"
   file_bf3: "../data/raw/WB_HCP_EMP_2WAP_A_WIDEF.CSV"
-
-output_data:
-  file: "../data/clean/cleaned_data_file.csv"
