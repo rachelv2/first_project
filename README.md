@@ -169,6 +169,61 @@ Understanding how societies adapt to demographic aging will be critical for buil
 
 # External resources
 https://blog.pwc.lu/how-much-can-the-older-workforce-impact-the-oecd-economies/
+https://fred.stlouisfed.org/series/HCIYISZMA066NRUG
+https://humancapital.worldbank.org/en/home
+
+# Project Structure
+
+first_project/
+│
+├── data/
+│   └── raw/                        # Raw datasets from the World Bank
+│       ├── merged.csv
+│       ├── WB_HCI.csv
+│       ├── WB_HCI_DATADICT.csv
+│       ├── WB_HCI_WIDEF.csv
+│       ├── WB_HCP_EMP_2WAP_A.csv
+│       ├── WB_HCP_EMP_2WAP_A_DATADICT.csv
+│       ├── WB_HCP_EMP_2WAP_A_WIDEF.csv
+│       ├── WB_WDI.csv
+│       ├── WB_WDI_DATADICT.csv
+│       └── WB_WDI_WIDEF.csv
+│
+├── figures/                        # Generated visualizations used in the analysis and presentation
+│   ├── Age top5_bottom5 graph.png
+│   ├── Aging-Level_Aging-Speed.png
+│   ├── Fastest-Aging-Societies_2010-2018.png
+│   ├── GDP-HCP bottom5 age.png
+│   ├── GDP-HCP top5 age.png
+│   ├── HCP-HCI-AGE plot graph.png
+│   ├── HCP-HCI-Age-GDP Bubble Graph.png
+│   └── The World's Demographic Divide_2010-2018.png
+│
+├── notebooks/                      # Jupyter notebooks used for data cleaning and analysis
+│   ├── data_cleaning_alex.ipynb
+│   ├── data_cleaning_beatriz.ipynb
+│   ├── data_cleaning_viz_rachel.ipynb
+│   └── merged.csv
+│
+├── slides/                         # Final project presentation
+│   ├── EncoreWorks_Prezi.pdf
+│   └── EncoreWorks_Prezi.pptx
+│
+├── src/
+│   ├── project_template/           # Python package for reusable project code
+│   │   ├── __init__.py
+│   │   ├── data_prep.py            # Data loading and preprocessing functions
+│   │   ├── features_beatriz.py     # Feature engineering and ranking tables
+│   │   ├── features_rachel.py      # Aging metrics and demographic indicators
+│   │   └── plots.py                # Visualization functions used across notebooks
+│
+├── config.yaml                     # Configuration file for dataset paths
+├── main.py                         # Project entry point (optional pipeline runner)
+├── pyproject.toml                  # Project configuration and dependencies
+├── requirements.txt                # Python dependencies
+├── README.md                       # Project documentation
+├── .python-version                 # Python version specification
+└── uv.lock                         # Dependency lock file
 
 # Installation requirements for contributors:
 
