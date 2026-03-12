@@ -34,7 +34,7 @@ The potential users of the insights generated in this project include:
 * Organizations interested in reskilling programs for older workers
 * Workers seeking to redefine their professional path later in their careers
 
-# Business model 
+# Business Model 
 
 ### Product: 
 A SaaS platform that helps companies manage and extend the careers of employees aged 50+ through workforce analytics, reskilling, and knowledge transfer.
