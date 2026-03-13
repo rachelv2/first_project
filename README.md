@@ -150,7 +150,12 @@ Three countries could not be included in HCI-based calculations due to insuffici
 The three datasets used in this analysis — the Human Capital Index (HCI), the World Development Indicators (WDI), and the Human Capital per Person (HCP), all sourced from the World Bank — did not share standardized country names, nor did they contain identical country coverage. Country names varied across datasets (for example, differing use of abbreviations, articles, or spellings), and the total number of countries represented differed between them. To address this, country names were standardized across all three datasets, and only countries present in all three were retained for analysis. Countries appearing in one or two datasets but not all three were excluded, ensuring consistency and comparability across the merged dataset. All three datasets were sourced from the World Bank Open Data portal.
 
 # Conclussions
-... (Quality > Quantity)
+
+Population aging is reshaping labor markets across many economies. Our analysis shows that while some countries already face high shares of older populations, aging alone does not determine economic performance. Instead, the ability of societies to maintain productivity depends largely on how effectively they invest in human capital and support workforce participation throughout longer lives.
+
+By combining demographic data, labor force participation indicators, and the Human Capital Index, we observe that countries with stronger investment in education, skills development, and workforce inclusion are better positioned to sustain economic productivity despite aging populations.
+
+These insights form the foundation of EncoreWorks, a platform designed to help organizations adapt to demographic change. By leveraging workforce analytics, reskilling pathways, and knowledge-transfer tools, EncoreWorks aims to help companies retain experienced workers, extend productive careers, and turn longer life expectancy into an economic advantage rather than a constraint.
 
 # Next steps
 Population aging is expected to continue accelerating as healthcare improvements and longer life expectancy extend working-age lifespans across many countries.
@@ -171,9 +176,14 @@ Understanding how societies adapt to demographic aging will be critical for buil
 https://blog.pwc.lu/how-much-can-the-older-workforce-impact-the-oecd-economies/
 https://fred.stlouisfed.org/series/HCIYISZMA066NRUG
 https://humancapital.worldbank.org/en/home
+https://www.ilo.org/publications/employment-trends-youth-middle-east-and-north-africa
+https://www.ilo.org/publications/major-publications/global-employment-trends-youth-2024
 
 # Project Structure
 
+## Project Structure
+
+```
 first_project/
 │
 ├── data/
@@ -189,7 +199,7 @@ first_project/
 │       ├── WB_WDI_DATADICT.csv
 │       └── WB_WDI_WIDEF.csv
 │
-├── figures/                        # Generated visualizations used in the analysis and presentation
+├── figures/                        # Generated visualizations
 │   ├── Age top5_bottom5 graph.png
 │   ├── Aging-Level_Aging-Speed.png
 │   ├── Fastest-Aging-Societies_2010-2018.png
@@ -199,31 +209,32 @@ first_project/
 │   ├── HCP-HCI-Age-GDP Bubble Graph.png
 │   └── The World's Demographic Divide_2010-2018.png
 │
-├── notebooks/                      # Jupyter notebooks used for data cleaning and analysis
+├── notebooks/
 │   ├── data_cleaning_alex.ipynb
 │   ├── data_cleaning_beatriz.ipynb
 │   ├── data_cleaning_viz_rachel.ipynb
 │   └── merged.csv
 │
-├── slides/                         # Final project presentation
+├── slides/
 │   ├── EncoreWorks_Prezi.pdf
 │   └── EncoreWorks_Prezi.pptx
 │
 ├── src/
-│   ├── project_template/           # Python package for reusable project code
-│   │   ├── __init__.py
-│   │   ├── data_prep.py            # Data loading and preprocessing functions
-│   │   ├── features_beatriz.py     # Feature engineering and ranking tables
-│   │   ├── features_rachel.py      # Aging metrics and demographic indicators
-│   │   └── plots.py                # Visualization functions used across notebooks
+│   └── project_template/
+│       ├── __init__.py
+│       ├── data_prep.py
+│       ├── features_beatriz.py
+│       ├── features_rachel.py
+│       └── plots.py
 │
-├── config.yaml                     # Configuration file for dataset paths
-├── main.py                         # Project entry point (optional pipeline runner)
-├── pyproject.toml                  # Project configuration and dependencies
-├── requirements.txt                # Python dependencies
-├── README.md                       # Project documentation
-├── .python-version                 # Python version specification
-└── uv.lock                         # Dependency lock file
+├── config.yaml
+├── main.py
+├── pyproject.toml
+├── requirements.txt
+├── README.md
+├── .python-version
+└── uv.lock
+```
 
 # Installation requirements for contributors:
 
