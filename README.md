@@ -35,7 +35,7 @@ The potential users of the insights generated in this project include:
 
 # Business Model 
 
-### Product: 
+### Product 
 A SaaS platform that helps companies manage and extend the careers of employees aged 50+ through workforce analytics, reskilling, and knowledge transfer.
 
 ### Key Features
