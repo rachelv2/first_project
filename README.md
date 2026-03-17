@@ -7,7 +7,6 @@ However, some countries manage to maintain productivity despite aging population
 
 This project explores the relationship between aging populations, labor force participation, human capital investment, and productivity in order to identify patterns that help economies sustain growth.
 
-
 # Business Question 
 How can organizations and countries unlock the productive potential of workers aged 50+ in aging societies to sustain economic growth and workforce participation?
 
@@ -42,13 +41,9 @@ A SaaS platform that helps companies manage and extend the careers of employees 
 ### Key Features
 Workforce Analytics Dashboard: analyzes age distribution, predicts retirement risk, and identifies critical skill gaps.
 
-
 Reskilling Programs: personalized training recommendations to help senior employees transition into new roles.
 
-
 Knowledge Transfer Tools: mentoring programs and systems to capture and share expertise before retirement.
-
-
 
 
 This platform would help organizations:
@@ -73,7 +68,7 @@ https://data360.worldbank.org/en/dataset/WB_HCI
 Labor Force Participation Rate (%) Indicator
 https://data360.worldbank.org/en/indicator/WB_HCP_EMP_2WAP_A
 
-### Data Sources
+## Data Sources
 Our analysis combines two global datasets from the World Bank’s open data platform. These datasets provide standardized indicators across countries, allowing for reliable cross-country comparisons. Our project is doing **cross-country** macro analysis.
 
 The World Development Indicators (WDI) dataset is one of the World Bank’s primary databases for global development statistics. It aggregates internationally comparable data on economic performance, demographics, and labor markets for more than 200 countries. From this dataset, we extracted indicators that measure demographic aging, workforce participation, and economic productivity.
@@ -123,7 +118,6 @@ Some indicators were not available for all countries or for all years, which cre
 ## Solutions for the dataset issues
 To ensure reliable analysis and comparability across countries, the following steps were taken:
 
-
 - Data harmonization:
 
 Column names and formats were standardized across datasets to enable successful merging.
@@ -149,8 +143,7 @@ Three countries could not be included in HCI-based calculations due to insuffici
 
 The three datasets used in this analysis — the Human Capital Index (HCI), the World Development Indicators (WDI), and the Human Capital per Person (HCP), all sourced from the World Bank — did not share standardized country names, nor did they contain identical country coverage. Country names varied across datasets (for example, differing use of abbreviations, articles, or spellings), and the total number of countries represented differed between them. To address this, country names were standardized across all three datasets, and only countries present in all three were retained for analysis. Countries appearing in one or two datasets but not all three were excluded, ensuring consistency and comparability across the merged dataset. All three datasets were sourced from the World Bank Open Data portal.
 
-# Conclussions
-
+# Conclusions
 Population aging is reshaping labor markets across many economies. Our analysis shows that while some countries already face high shares of older populations, aging alone does not determine economic performance. Instead, the ability of societies to maintain productivity depends largely on how effectively they invest in human capital and support workforce participation throughout longer lives.
 
 By combining demographic data, labor force participation indicators, and the Human Capital Index, we observe that countries with stronger investment in education, skills development, and workforce inclusion are better positioned to sustain economic productivity despite aging populations.
@@ -172,6 +165,9 @@ Future research could expand this analysis by:
 
 Understanding how societies adapt to demographic aging will be critical for building sustainable labor markets and resilient economies in the coming decades.
 
+# Presentation
+https://prezi.com/view/feab0zSP9aHHnHnQMMmw/
+
 # External resources
 https://blog.pwc.lu/how-much-can-the-older-workforce-impact-the-oecd-economies/
 https://fred.stlouisfed.org/series/HCIYISZMA066NRUG
@@ -180,8 +176,6 @@ https://www.ilo.org/publications/employment-trends-youth-middle-east-and-north-a
 https://www.ilo.org/publications/major-publications/global-employment-trends-youth-2024
 
 # Project Structure
-
-## Project Structure
 
 ```
 first_project/
