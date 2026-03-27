@@ -1,4 +1,4 @@
-# EncoreWorks: Supporting Longer Careers in Aging Societies.
+# EncoreWorks: Supporting Longer Careers in Aging Societies
 
 # Project overview
 Many countries are experiencing rapid population aging. As the share of people over 65 increases, the working-age population shrinks, creating pressure on economic productivity, pension systems, and labor markets.
